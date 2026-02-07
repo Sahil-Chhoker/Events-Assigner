@@ -5,16 +5,11 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-COPY requirements.txt /app/
+COPY requirements.txt .
+RUN pip install --upgrade pip && pip install -r requirements.txt --no-cache-dir
 
-RUN pip install --upgrade pip && \
-    pip install -r requirements.txt
-
-COPY . /app/
-
-RUN python photographer_assignment/manage.py makemigrations && \
-    python photographer_assignment/manage.py migrate
+COPY . .
 
 EXPOSE 8000
 
-CMD ["python", "photographer_assignment/manage.py", "runserver", "0.0.0.0:8000"]
+ENTRYPOINT ["sh", "/app/entrypoint.sh"]

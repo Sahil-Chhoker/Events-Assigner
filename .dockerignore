@@ -1,0 +1,21 @@
+# Git
+.git
+.gitignore
+
+# Python virtual envs
+env/
+venv/
+.env/
+
+# Django
+db.sqlite3
+*.log
+__pycache__/
+
+# Local-only files
+api.postman_collection.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
