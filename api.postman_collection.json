@@ -14,10 +14,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://127.0.0.1:8000/api/photographers/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/photographers/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "photographers", ""]
             }
           }
@@ -37,10 +36,9 @@
               "raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"phone\": \"+1234567890\",\n  \"is_active\": true\n}"
             },
             "url": {
-              "raw": "http://127.0.0.1:8000/api/photographers/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/photographers/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "photographers", ""]
             }
           }
@@ -51,10 +49,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://127.0.0.1:8000/api/photographers/1/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/photographers/1/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "photographers", "1", ""]
             }
           }
@@ -74,10 +71,9 @@
               "raw": "{\n  \"name\": \"John Doe Updated\",\n  \"email\": \"john@example.com\",\n  \"phone\": \"+1234567890\",\n  \"is_active\": true\n}"
             },
             "url": {
-              "raw": "http://127.0.0.1:8000/api/photographers/1/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/photographers/1/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "photographers", "1", ""]
             }
           }
@@ -88,10 +84,9 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "http://127.0.0.1:8000/api/photographers/1/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/photographers/1/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "photographers", "1", ""]
             }
           }
@@ -102,10 +97,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://127.0.0.1:8000/api/photographers/1/schedule/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/photographers/1/schedule/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "photographers", "1", "schedule", ""]
             }
           }
@@ -121,10 +115,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://127.0.0.1:8000/api/events/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/events/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "events", ""]
             }
           }
@@ -144,10 +137,9 @@
               "raw": "{\n  \"event_name\": \"Wedding Ceremony\",\n  \"event_date\": \"2026-03-15\",\n  \"photographers_required\": 2\n}"
             },
             "url": {
-              "raw": "http://127.0.0.1:8000/api/events/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/events/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "events", ""]
             }
           }
@@ -158,10 +150,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://127.0.0.1:8000/api/events/1/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/events/1/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "events", "1", ""]
             }
           }
@@ -181,10 +172,9 @@
               "raw": "{\n  \"event_name\": \"Wedding Ceremony Updated\",\n  \"event_date\": \"2026-03-15\",\n  \"photographers_required\": 3\n}"
             },
             "url": {
-              "raw": "http://127.0.0.1:8000/api/events/1/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/events/1/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "events", "1", ""]
             }
           }
@@ -195,10 +185,9 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "http://127.0.0.1:8000/api/events/1/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/events/1/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "events", "1", ""]
             }
           }
@@ -218,10 +207,9 @@
               "raw": ""
             },
             "url": {
-              "raw": "http://127.0.0.1:8000/api/events/1/assign-photographers/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/events/1/assign-photographers/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "events", "1", "assign-photographers", ""]
             }
           }
@@ -232,10 +220,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://127.0.0.1:8000/api/events/1/assignments/",
-              "protocol": "http",
-              "host": ["127", "0", "0", "1"],
-              "port": "8000",
+              "raw": "https://events-assigner-web-v1.onrender.com/api/events/1/assignments/",
+              "protocol": "https",
+              "host": ["events-assigner-web-v1", "onrender", "com"],
               "path": ["api", "events", "1", "assignments", ""]
             }
           }
