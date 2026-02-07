@@ -34,7 +34,7 @@ The system prevents double-booking, validates edge cases, and exposes a clean RE
 * Python 3.12.0
 * Django 6.0
 * Django REST Framework
-* SQLite (dev)
+* SQLite
 * Docker & Docker Compose
 
 ---
@@ -149,31 +149,61 @@ When assigning photographers to an event:
 
 ## Setup (Local)
 
+### Step-by-Step
+
+Get the repo:
 ```bash
-git clone <repo-url>
-cd photographer_assignment
-python -m venv venv
-source venv/bin/activate
+git clone https://github.com/Sahil-Chhoker/Events-Assigner.git
+cd Events-Assigner
+```
+
+Create virtual env:
+```bash
+python -m venv env
+```
+
+Activate venv:
+```bash
+# for linux
+source env/bin/activate
+# for windows
+.\env\Scripts\activate
+```
+
+Install dependencies:
+```
 pip install -r requirements.txt
+```
+
+Enter into working dir:
+```
+cd photographer_system/
+```
+
+Run migrations:
+```
 python manage.py migrate
 python manage.py runserver
 ```
 
-API runs at:
-`http://127.0.0.1:8000/api/`
-
----
-
-## Sample Data
-
+For sample data, run:
 ```bash
 python manage.py create_sample_data
 ```
-
 Creates:
 
 * Active + inactive photographers
 * Events with different requirements
+
+### Using Docker
+
+Build container and run:
+```bash
+docker-compose up --build
+```
+
+API runs at:
+`http://127.0.0.1:8000/api/`
 
 ---
 
